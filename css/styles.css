@@ -25,6 +25,7 @@ p{
   width:80%;
   margin:5% auto;
   line-height: 1.65;
+     text-align: justify;
 }
 
 hr {
@@ -115,7 +116,7 @@ opacity: 0;
 }
 /* footer */
 .fa-envelope{
-  color:grey;
+  color:#EAEAEA;
 }
 .fa-instagram{
   color:#cc4f53;
@@ -125,48 +126,29 @@ opacity: 0;
     width: 50%;
     margin: 2% auto 3%;
 }
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+.footer-text{
+  text-align:center;
+}
+@media (max-width: 1028px) {
+p{
+  width:90%;
+  font-size:0.55rem;
+   text-align: justify;
+}
+.contact-description{
+  width:80%;
+    font-size:1rem;
+    text-align: center;
+}
+h2{
+  font-size:1.9rem;
+}
+.faS{
+  padding: 1rem 1rem 2rem ;
+}
+.btn{
+  margin: 10% auto;
 }
 
-/* Tooltip text */
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-
-  /* Position the tooltip text */
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-
-  /* Fade in tooltip */
-  opacity: 0;
-  transition: opacity 0.3s;
 }
 
-/* Tooltip arrow */
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
