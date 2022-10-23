@@ -1,0 +1,172 @@
+html{
+  font-size: 1.5rem;
+  padding: 0 3% 3% 3%;
+}
+body{
+  background-color: #000000;
+    text-align: center;
+}
+
+section{
+  padding:3% 0;
+}
+h2{
+  font-family: "Roboto Slab",sans-serif;
+  color:#66BFBF;
+  font-weight: 600;
+  font-size:2.4rem;
+  letter-spacing: 0.25rem;
+  padding-bottom: 3rem;
+}
+p{
+  color:#FFD1D1 ;
+  margin-top: 5%;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+  width:80%;
+  margin:5% auto;
+  line-height: 1.65;
+}
+
+hr {
+  border: dotted #FFD1D1 1rem;
+  border-bottom: none;
+   width: 30%;
+margin: 15% auto 15%;
+}
+h1{
+  color: #66BFBF;
+font-family: 'Dancing Script', cursive;
+margin: 2rem auto 3rem;
+width:60%;
+letter-spacing: 0.3rem;
+
+}
+
+#profile-picture{
+border-radius: 1.5rem;
+}
+.nav-item{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.dropdown-menu{
+  background-color: #000000;
+    text-align: center;
+}
+.dropdown-item{
+  color:#FFD1D1;
+}
+.dropdown-item:hover{
+  background-color: #000000;
+  color: #C689C6;
+}
+.introductory{
+padding: 0.8rem;
+}
+.project-image{
+  width:40%;
+  height: 40%;
+  border-radius: 10%;
+  margin:0 auto;
+  display: inline-block;
+}
+
+.project-link{
+font-size: 10rem;
+opacity: 0;
+
+}
+
+/* SKILLS */
+.faS{
+  padding:1.5rem;
+}
+.faS:hover{
+  color:#EAEAEA;
+
+}
+.fa{
+  padding: 2%;
+}
+.fa:hover{
+  color:#EAEAEA ;
+}
+.fa-html5{
+  color: #e56027;
+}
+.fa-js{
+  color:#f7df1e;
+}
+.fa-node{
+  color:#7bc328;
+}
+.fa-bootstrap{
+  color:#7210eb;
+}
+.fa-git{
+  color:#f05030;
+}
+/* footer */
+.fa-envelope{
+  color:grey;
+}
+.fa-instagram{
+  color:#cc4f53;
+}
+/* CONTACT */
+.contact-description{
+    width: 50%;
+    margin: 2% auto 3%;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
