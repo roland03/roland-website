@@ -125,6 +125,7 @@ opacity: 0;
 .contact-description{
     width: 50%;
     margin: 2% auto 3%;
+  text-align:center;
 }
 .footer-text{
   text-align:center;
